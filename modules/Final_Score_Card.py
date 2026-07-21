@@ -9,7 +9,8 @@ from io import BytesIO
 
 
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyDK_wMErEbEr0wEuBwQLznIVcT-vaE8Po0")
+import os
+genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 
