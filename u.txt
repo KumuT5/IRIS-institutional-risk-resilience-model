@@ -1,0 +1,17 @@
+1. SOC Analyst L1
+(Field: Cybersecurity)
+SOC Analyst Level 1
+
+What you’d do:
+Monitor alerts
+Investigate suspicious activity
+Analyze logs
+Escalate incidents
+Use SIEM dashboards
+
+What you need:
+Networking fundamentals
+Linux basics
+Security concepts
+SIEM basics
+Incident response basics

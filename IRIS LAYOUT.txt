@@ -1,0 +1,38 @@
+pip install streamlit numpy matplotlib reportlab google-generativeai bcrypt
+
+|-App.py
+|-auth_utils.py
+|-database.py
+|sidebar_public.py
+|-views
+    |-----_init_.py
+    |-----Home.py
+    |-----login_user.py
+    |-----register_user.py
+    |-----user_dashboard.py
+    |-----admin
+              |-----admin_dashboard.py
+              |-----login_admin.py
+              |-----controls.py
+              |-----register_admin.py
+|-sidebar_pages
+    |-----_init_.py
+    |-----about.py
+    |-----contact.py
+    |-----features.py
+    |-----home.py
+    |-----how_it_works.py
+    |-----why_iris.py
+|-modules
+    |-----_init_.py
+    |-----admin_auth.py
+    |-----admin_config.py
+    |-----admin_data.py
+    |-----assessment_history.py
+    |-----Final_Score_Card.py
+    |-----New_Asseement.py
+    |-----user_auth.py
+   
+|-assets
+    |----C:\Users\DeLL\OneDrive\Desktop\IRIS_pythonproject\assets\IRIS LOGO.jfif
+|-global_ui

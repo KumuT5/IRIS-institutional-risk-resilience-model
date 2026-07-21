@@ -1,0 +1,1527 @@
+COIIP — FINAL LOCKED MASTER SPECIFICATION
+Project Name
+
+COIIP – Community Operations & Incident Intelligence Platform
+
+Tagline
+
+Turning Incidents into Actionable Intelligence
+
+Project Vision
+
+COIIP is a multi-tenant cloud-hosted SaaS platform that helps organizations manage incidents, operations, service requests, assets, monitoring, governance, analytics, and AI-assisted decision-making from a single platform.
+
+It is designed to simulate a real-world operations platform used by schools, colleges, hospitals, NGOs, housing societies, startups, corporate offices, municipalities, and government departments.
+
+The project is specifically intended to demonstrate skills relevant to:
+
+Cloud Support Associate
+Infrastructure Operations
+Technical Operations
+System Administration
+IT Operations
+NOC Operations
+Cloud Operations
+Core Idea
+
+Instead of being just a complaint portal, COIIP combines:
+
+Incident Management
+Service Request Management
+Asset Management
+Change Management
+SLA Management
+Escalation Management
+Monitoring
+Audit Logging
+Governance
+Operational Analytics
+AI Assistance
+Organizational Memory
+Cloud Infrastructure Operations
+
+into one unified SaaS platform.
+
+Multi-Tenant Architecture
+
+Each organization operates independently.
+
+Examples:
+
+School A cannot see School B data.
+Hospital A cannot see Municipality B data.
+Company A cannot see NGO B data.
+
+Each organization receives:
+
+Organization ID
+Organization Admin Account
+
+Users join via:
+
+Invitation Link
+Join Code
+QR Code
+
+Organization IDs remain private.
+
+User Roles (RBAC)
+User
+Operations Team Member
+Department Manager
+Organization Admin
+Organization Owner
+Compliance Officer
+Auditor
+Platform Super Admin
+Privacy & Reporting Modes
+Named Report
+
+Identity visible.
+
+Protected Report
+
+Identity hidden from operational teams.
+
+Anonymous Report
+
+Identity hidden from everyone.
+
+Verified Anonymous Reporting
+
+System stores identity internally.
+
+Only Auditor can reveal identity when abuse investigation is authorized.
+
+Final Locked Feature List
+1. Incident Management
+
+Users can:
+
+Create incidents
+Attach files
+Upload images
+Track progress
+Receive updates
+
+Incident Categories:
+
+Network
+Infrastructure
+Electrical
+Water
+Maintenance
+Security
+Administration
+IT Support
+Equipment Failure
+Other
+
+Priority Levels:
+
+Critical
+High
+Medium
+Low
+2. Service Request Management
+
+Users can request services such as:
+
+New accounts
+Software installation
+Access requests
+Equipment requests
+VPN access
+Other organizational services
+
+Features:
+
+Request creation
+Assignment
+Approval workflow
+Tracking
+3. Asset Management
+
+Track organizational assets:
+
+Servers
+Routers
+Switches
+Printers
+Laptops
+Applications
+Cameras
+Equipment
+
+Features:
+
+Asset inventory
+Asset ownership
+Asset status
+Asset history
+Incident-to-Asset linking
+4. Change Management
+
+Track operational changes.
+
+Examples:
+
+Software upgrades
+Server maintenance
+Network changes
+
+Features:
+
+Change requests
+Risk assessment
+Approval workflow
+Change calendar
+Change history
+5. Maintenance Scheduling
+
+Planned maintenance windows.
+
+Features:
+
+Schedule maintenance
+Notify users
+Display maintenance status
+Track maintenance history
+6. Major Incident Management
+
+Special handling for large-scale incidents.
+
+Features:
+
+Major incident declaration
+Incident timeline
+Stakeholder updates
+Escalation workflows
+Incident command tracking
+7. Root Cause Analysis (RCA)
+
+Post-incident investigation.
+
+Features:
+
+Root cause reports
+Corrective actions
+Preventive actions
+Lessons learned
+8. SLA Management
+
+Default SLA Rules:
+
+Critical → 4 Hours
+
+High → 24 Hours
+
+Medium → 48 Hours
+
+Low → 72 Hours
+
+Features:
+
+SLA timers
+SLA tracking
+Breach detection
+SLA reporting
+9. Escalation Engine
+
+Automatic escalation.
+
+Can:
+
+Increase priority
+Notify managers
+Notify admins
+Generate audit events
+10. Notifications Center
+
+Supports:
+
+In-app notifications
+Email notifications
+
+Future-ready for:
+
+SMS
+Push notifications
+11. Announcement Center
+
+Organization-wide communication.
+
+Examples:
+
+Maintenance notices
+Policy updates
+Important announcements
+12. Knowledge Base
+
+Store solutions and documentation.
+
+Features:
+
+Articles
+Search
+Categories
+AI recommendations
+13. Organizational Memory
+
+AI learns from previous incidents.
+
+Features:
+
+Similar incident matching
+Historical resolution suggestions
+Solution recommendations
+14. Analytics & Reporting
+
+Metrics:
+
+Open incidents
+Closed incidents
+SLA compliance
+Team performance
+Category trends
+Asset trends
+
+Reports:
+
+Daily
+Weekly
+Monthly
+15. Dashboard Widgets
+
+Examples:
+
+Open Incidents
+Critical Incidents
+SLA Breaches
+Asset Health
+Infrastructure Alerts
+Team Performance
+16. Global Search
+
+Search across:
+
+Incidents
+Assets
+Users
+Knowledge Articles
+Service Requests
+Changes
+17. Public Status Page
+
+Publicly visible service status.
+
+Examples:
+
+Website Status
+Email Status
+ERP Status
+Wi-Fi Status
+
+Organization-controlled visibility.
+
+18. Audit Logging
+
+Track:
+
+Who changed what
+Old value
+New value
+Timestamp
+Reason
+19. Compliance & Governance
+
+Features:
+
+Auditor access
+Compliance review
+Reporting controls
+Privacy controls
+20. Infrastructure Health Dashboard
+
+Display infrastructure health.
+
+Sources:
+
+CloudWatch
+Server metrics
+Alert feeds
+
+Metrics:
+
+CPU
+Memory
+Disk
+Network
+21. Monitoring Alerts Dashboard
+
+Shows:
+
+Active alerts
+Resolved alerts
+Alert severity
+Alert history
+22. Disaster Recovery Dashboard
+
+Track:
+
+Backups
+Recovery status
+Backup history
+Recovery testing
+23. Mobile-Friendly Experience
+
+Features:
+
+Responsive UI
+Mobile dashboards
+Mobile incident reporting
+Camera uploads
+Final Locked AI Modules
+AI Classification Agent
+
+Suggests:
+
+Incident category
+Priority
+AI Assignment Agent
+
+Suggests responsible team.
+
+AI Summary Agent
+
+Generates:
+
+Daily summaries
+Weekly summaries
+Monthly summaries
+AI Operations Assistant
+
+Natural language queries:
+
+Examples:
+
+Show unresolved critical incidents
+Show SLA breaches
+Show top recurring issues
+AI Trend Detection Agent
+
+Detects recurring patterns.
+
+Example:
+
+15 leaks in same building.
+
+Suggests investigation.
+
+AI Knowledge Recommendation Agent
+
+Suggests successful previous solutions.
+
+AI Similar Incident Engine
+
+Matches similar historical incidents.
+
+Provides:
+
+Similarity score
+Previous resolutions
+AI Root Cause Assistant
+
+Suggests probable causes.
+
+Uses:
+
+Incident data
+Monitoring data
+Historical patterns
+AI SLA Risk Predictor
+
+Predicts likelihood of SLA breach.
+
+Infrastructure Correlation Engine
+
+Example:
+
+CloudWatch:
+
+High CPU
+
+User Incident:
+
+Website slow
+
+AI suggests relationship.
+
+**Final Locked Technology Stack**
+>>Frontend
+HTML
+CSS
+JavaScript
+>>Backend
+Python
+>>Framework
+Flask
+>>Database
+SQLite (initially)
+>>Cloud
+AWS
+>>Infrastructure
+EC2
+Ubuntu Linux
+>>Monitoring
+AWS CloudWatch
+>>Containerization
+Docker
+Docker Compose
+>>Reverse Proxy
+Nginx
+>>Security
+HTTPS/TLS
+RBAC
+Audit Logging
+>>DevOps
+GitHub
+GitHub Actions
+>>Infrastructure as Code (Later)
+Terraform
+>>Networking Learning Components
+Cisco Packet Tracer
+Wireshark
+>>Administration
+SSH
+PuTTY (optional)
+
+
+Final Resume Positioning:
+Designed and deployed COIIP (Community Operations & Incident Intelligence Platform), a multi-tenant cloud-hosted SaaS platform for incident management, service requests, asset tracking, change management, SLA enforcement, operational analytics, monitoring, governance, disaster recovery tracking, audit logging, and AI-assisted operations using AWS, Linux, Docker, Flask, SQLite, CloudWatch, Nginx, and GitHub Actions.
+
+
+COIIP FINAL PAGE STRUCTURE
+PUBLIC PAGES
+
+1. Landing Page
+Purpose:
+Introduce COIIP.
+
+Content:
+
+Hero section
+Features overview
+Benefits
+Platform screenshots
+Pricing placeholder
+Contact section
+Login button
+Register organization button
+
+2. Login Page
+Content:
+
+Email
+Password
+Remember me
+Forgot password
+Login button
+
+3. Register Organization Page
+Content:
+
+Organization Details:
+
+Organization Name
+Organization Type
+Email
+Phone
+Address
+Admin Details
+
+Outputs:
+
+Organization ID
+Organization Admin Account
+
+4. Join Organization Page
+Content:
+
+Join using:
+
+Invitation Link
+Join Code
+QR Code
+USER MODULE
+
+5. User Dashboard
+Content:
+
+Cards:
+
+Open Incidents
+Service Requests
+Notifications
+Assigned Assets
+
+Recent Activity
+
+Quick Actions:
+
+Report Incident
+Create Service Request
+
+6. Report Incident Page
+Content:
+
+Title
+Description
+Category
+Priority
+Privacy Type
+Attachments
+Photos
+
+AI Suggestions:
+
+Category
+Priority
+
+Submit Button
+
+7. My Incidents Page
+Content:
+
+Incident Table
+
+Columns:
+
+Ticket ID
+Title
+Status
+Priority
+SLA Status
+Created Date
+
+Filters
+
+Search
+
+8. Incident Details Page
+Content:
+
+Full Incident Information
+Timeline
+Comments
+Attachments
+Assignment History
+SLA Status
+Escalation History
+Related Assets
+Similar Incidents
+
+9. Create Service Request Page
+Content:
+
+Service Type
+Description
+Approval Required
+Attachments
+
+10. My Service Requests Page
+Content:
+
+Request List
+Status
+Assigned Team
+Approval Status
+
+11. Notifications Center
+Content:
+
+Notifications List
+Read/Unread
+Notification Preferences
+OPERATIONS MODULE
+
+12. Operations Dashboard
+Content:
+
+Cards:
+
+Assigned Incidents
+Critical Incidents
+SLA Breaches
+Active Alerts
+
+Graphs:
+
+Incident Trends
+Team Workload
+
+13. Assigned Incidents Page
+Content:
+
+All assigned incidents.
+
+Filters:
+
+Priority
+Status
+Category
+
+14. Incident Workbench
+Main working screen.
+
+Content:
+
+Incident Details
+Comments
+Status Updates
+Resolution Entry
+Escalation Controls
+Asset Links
+AI Recommendations
+
+15. Service Request Workbench
+Content:
+
+Request Details
+Approval Workflow
+Fulfillment Actions
+Status Updates
+
+16. Major Incident Management Page
+Content:
+
+Major Incident Dashboard
+Timeline
+Stakeholder Updates
+Incident Commander Notes
+
+17. Root Cause Analysis Page
+Content:
+
+Incident Summary
+Cause Analysis
+Impact Analysis
+Corrective Actions
+Preventive Actions
+Lessons Learned
+ASSET MANAGEMENT MODULE
+
+18. Asset Dashboard
+Content:
+
+Cards:
+
+Total Assets
+Active Assets
+Faulty Assets
+Retired Assets
+
+19. Asset Inventory Page
+Content:
+
+Asset Table
+
+Columns:
+
+Asset ID
+Name
+Type
+Status
+Owner
+Location
+
+20. Asset Details Page
+Content:
+
+Asset Information
+Ownership
+Maintenance History
+Linked Incidents
+Linked Changes
+CHANGE MANAGEMENT MODULE
+
+21. Change Management Dashboard
+Content:
+
+Upcoming Changes
+Pending Approvals
+High Risk Changes
+
+22. Change Request Page
+Content:
+
+Change Description
+Risk Level
+Impact Assessment
+Rollback Plan
+Maintenance Window
+
+23. Change Calendar Page
+Content:
+
+Calendar View
+
+Displays:
+
+Scheduled Changes
+Maintenance Windows
+ADMIN MODULE
+
+24. Admin Dashboard
+Content:
+
+Organization Overview
+
+Cards:
+
+Users
+Incidents
+Assets
+Changes
+Service Requests
+
+25. Incident Management Page
+Admin incident overview.
+
+Bulk actions.
+
+Filters.
+
+26. User Management Page
+Content:
+
+User List
+Create User
+Suspend User
+Reset Password
+
+27. Role Management Page
+Content:
+
+Roles
+Permissions
+Access Matrix
+
+28. Organization Settings Page
+Content:
+
+Organization Information
+Branding
+SLA Settings
+Notification Settings
+AI MODULE
+
+29. AI Operations Assistant
+Chat-style interface.
+
+Examples:
+
+Show SLA breaches
+Show critical incidents
+Show incident trends
+
+30. AI Classification Dashboard
+Content:
+
+AI Predictions
+
+Category Suggestions
+Priority Suggestions
+Assignment Suggestions
+
+31. AI Insights Dashboard
+Content:
+
+Trends
+Recurring Problems
+Risk Predictions
+Similar Incident Clusters
+REPORTING MODULE
+
+32. Analytics Dashboard
+Content:
+
+Charts:
+
+Incident Trends
+Resolution Time
+SLA Compliance
+Team Performance
+
+33. Reports Center
+Content:
+
+Generate:
+
+Daily Reports
+Weekly Reports
+Monthly Reports
+Custom Reports
+
+Export:
+
+PDF
+CSV
+KNOWLEDGE MANAGEMENT MODULE
+
+34. Knowledge Base Home
+Content:
+
+Search Bar
+Categories
+Popular Articles
+Recent Articles
+
+35. Knowledge Article Page
+Content:
+
+Article Content
+Related Articles
+Helpful/Not Helpful
+SECURITY & GOVERNANCE MODULE
+
+36. Audit Logs Page
+Content:
+
+Table:
+
+User
+Action
+Old Value
+New Value
+Timestamp
+
+Filters
+
+Export
+
+INFRASTRUCTURE & CLOUD MODULE
+
+37. Infrastructure Health Dashboard
+Content:
+
+System Health
+
+Metrics:
+
+CPU
+Memory
+Disk
+Network
+
+CloudWatch Alerts
+
+Server Status
+
+Container Status
+
+Backup Status
+
+Recovery Status
+
+SUPPORTING FEATURES PRESENT THROUGHOUT
+
+Accessible from Navbar:
+
+Global Search
+
+Search:
+
+Incidents
+Assets
+Users
+Knowledge Articles
+Changes
+Requests
+Announcement Center
+
+Organization-wide announcements.
+
+Status Page
+
+Public service availability page.
+
+Maintenance Schedule
+
+Upcoming maintenance windows.
+
+
+COIIP FINAL DATABASE SCHEMA (V1)
+1. Organizations
+
+Stores tenant information.
+
+Field		Type
+organization_id	PK
+organization_name	VARCHAR
+organization_type	VARCHAR
+email		VARCHAR
+phone		VARCHAR
+address		TEXT
+logo_url		VARCHAR
+status		VARCHAR
+created_at		DATETIME
+updated_at	DATETIME
+
+2. Users
+Field		Type
+user_id		PK
+organization_id	FK
+first_name		VARCHAR
+last_name		VARCHAR
+email		VARCHAR
+password_hash	VARCHAR
+phone		VARCHAR
+role_id		FK
+status		VARCHAR
+last_login		DATETIME
+created_at		DATETIME
+updated_at	DATETIME
+
+3. Roles
+Field		Type
+role_id		PK
+role_name		VARCHAR
+description	TEXT
+
+Examples:
+
+User
+Operations Team
+Manager
+Admin
+Auditor
+
+4. Permissions
+Field		Type
+permission_id	PK
+permission_name	VARCHAR
+description	TEXT
+
+5. Role_Permissions
+
+Many-to-many mapping.
+
+Field		Type
+role_permission_id	PK
+role_id		FK
+permission_id	FK
+
+INCIDENT MANAGEMENT
+
+6. Incidents
+
+Main ticket table.
+
+Field		Type
+incident_id	PK
+organization_id	FK
+reporter_user_id	FK
+title		VARCHAR
+description	TEXT
+category_id	FK
+priority_id		FK
+status_id		FK
+privacy_type	VARCHAR
+assigned_team_id	FK
+asset_id		FK
+sla_record_id	FK
+created_at		DATETIME
+updated_at	DATETIME
+resolved_at	DATETIME
+closed_at		DATETIME
+
+7. Incident_Categories
+Field		Type
+category_id	PK
+category_name	VARCHAR
+description	TEXT
+
+8. Incident_Status
+Field		Type
+status_id		PK
+status_name	VARCHAR
+
+Examples:
+
+Open
+In Progress
+Resolved
+Closed
+
+9. Priorities
+Field		Type
+priority_id		PK
+priority_name	VARCHAR
+sla_hours		INTEGER
+
+10. Incident_Assignments
+Tracks assignment history.
+
+Field	Type
+assignment_id	PK
+incident_id	FK
+assigned_user_id	FK
+assigned_by	FK
+assigned_at	DATETIME
+
+SERVICE REQUESTS
+
+11. Service_Request_Types
+Field		Type
+request_type_id	PK
+name		VARCHAR
+description	TEXT
+
+12. Service_Requests
+Field		Type
+service_request_id	PK
+organization_id	FK
+requester_user_id	FK
+request_type_id	FK
+title		VARCHAR
+description	TEXT
+status		VARCHAR
+approval_status	VARCHAR
+assigned_to	FK
+created_at		DATETIME
+updated_at	DATETIME
+
+13. Service_Request_Approvals
+Field		Type
+approval_id	PK
+service_request_id	FK
+approver_user_id	FK
+decision		VARCHAR
+comments		TEXT
+decision_date	DATETIME
+
+ASSET MANAGEMENT
+
+14. Assets
+Field		Type
+asset_id		PK
+organization_id	FK
+asset_code	VARCHAR
+asset_name	VARCHAR
+asset_type		VARCHAR
+location		VARCHAR
+owner_user_id	FK
+status		VARCHAR
+purchase_date	DATE
+created_at		DATETIME
+
+15. Asset_Maintenance
+Field		Type
+maintenance_id	PK
+asset_id		FK
+maintenance_type	VARCHAR
+description	TEXT
+maintenance_date	DATETIME
+performed_by	FK
+
+CHANGE MANAGEMENT
+
+16. Changes
+Field		Type
+change_id		PK
+organization_id	FK
+title		VARCHAR
+description	TEXT
+risk_level		VARCHAR
+impact_assessment	TEXT
+rollback_plan	TEXT
+requested_by	FK
+status		VARCHAR
+scheduled_start	DATETIME
+scheduled_end	DATETIME
+
+17. Change_Approvals
+Field		Type
+approval_id	PK
+change_id		FK
+approver_user_id	FK
+decision		VARCHAR
+comments		TEXT
+approved_at	DATETIME
+
+MAJOR INCIDENTS
+
+18. Major_Incidents
+Field		Type
+major_incident_id	PK
+incident_id	FK
+incident_commander	FK
+declared_at	DATETIME
+closed_at		DATETIME
+
+ROOT CAUSE ANALYSIS
+
+19. RCA_Reports
+Field		Type
+rca_id		PK
+incident_id	FK
+root_cause	TEXT
+impact_summary	TEXT
+corrective_action	TEXT
+preventive_action	TEXT
+lessons_learned	TEXT
+created_by	FK
+created_at		DATETIME
+
+SLA
+
+20. SLA_Records
+Field		Type
+sla_record_id	PK
+incident_id	FK
+start_time		DATETIME
+due_time		DATETIME
+breached		BOOLEAN
+breach_time	DATETIME
+
+ESCALATIONS
+
+21. Escalations
+Field		Type
+escalation_id	PK
+incident_id	FK
+escalation_level	INTEGER
+escalated_to	FK
+escalation_reason	TEXT
+escalated_at	DATETIME
+
+COMMENTS
+
+22. Comments
+Field		Type
+comment_id	PK
+incident_id	FK
+user_id		FK
+comment_text	TEXT
+created_at		DATETIME
+
+FILES
+
+23. Attachments
+Field		Type
+attachment_id	PK
+incident_id	FK
+uploaded_by	FK
+file_name		VARCHAR
+file_path		VARCHAR
+uploaded_at	DATETIME
+
+NOTIFICATIONS
+
+24. Notifications
+Field		Type
+notification_id	PK
+user_id		FK
+title		VARCHAR
+message		TEXT
+is_read		BOOLEAN
+created_at		DATETIME
+
+ANNOUNCEMENTS
+
+25. Announcements
+Field		Type
+announcement_id	PK
+organization_id	FK
+title		VARCHAR
+content		TEXT
+created_by	FK
+published_at	DATETIME
+
+KNOWLEDGE BASE
+
+26. Knowledge_Articles
+Field		Type
+article_id		PK
+organization_id	FK
+title		VARCHAR
+content		TEXT
+category		VARCHAR
+created_by	FK
+created_at		DATETIME
+
+REPORTING
+
+27. Reports
+Field		Type
+report_id		PK
+organization_id	FK
+report_type	VARCHAR
+generated_by	FK
+generated_at	DATETIME
+file_path		VARCHAR
+
+AUDIT LOGS
+
+28. Audit_Logs
+Field		Type
+audit_id		PK
+organization_id	FK
+user_id		FK
+entity_type	VARCHAR
+entity_id		INTEGER
+old_value		TEXT
+new_value		TEXT
+action		VARCHAR
+timestamp		DATETIME
+
+AI MODULES
+
+29. AI_Recommendations
+Field			Type
+recommendation_id		PK
+incident_id		FK
+recommendation_type	VARCHAR
+recommendation_text		TEXT
+confidence_score		DECIMAL
+created_at			DATETIME
+
+30. AI_Incident_Similarity
+Field		Type
+similarity_id	PK
+incident_id	FK
+matched_incident_id	FK
+similarity_score	DECIMAL
+
+INFRASTRUCTURE MONITORING
+
+31. Infrastructure_Alerts
+Field		Type
+alert_id		PK
+organization_id	FK
+alert_type		VARCHAR
+severity		VARCHAR
+source		VARCHAR
+description	TEXT
+triggered_at	DATETIME
+resolved_at	DATETIME
+
+32. Infrastructure_Metrics
+Field		Type
+metric_id		PK
+organization_id	FK
+metric_name	VARCHAR
+metric_value	DECIMAL
+recorded_at	DATETIME
+
+DISASTER RECOVERY
+
+33. Backup_Records
+Field		Type
+backup_id		PK
+organization_id	FK
+backup_type	VARCHAR
+backup_status	VARCHAR
+backup_date	DATETIME
+restore_test_date	DATETIME
+
+MAINTENANCE SCHEDULING
+
+34. Maintenance_Windows
+Field		Type
+maintenance_id	PK
+organization_id	FK
+title		VARCHAR
+description	TEXT
+start_time		DATETIME
+end_time		DATETIME
+status		VARCHAR
+
+CMDB
+
+35. Configuration_Items
+Field		Type
+ci_id		PK
+organization_id	FK
+ci_name		VARCHAR
+ci_type		VARCHAR
+asset_id		FK
+status		VARCHAR
+
+36. CI_Relationships
+Field		Type
+relationship_id	PK
+parent_ci_id	FK
+child_ci_id	FK
+relationship_type	VARCHAR
+
+SYSTEM SETTINGS
+
+37. Organization_Settings
+Field		Type
+setting_id		PK
+organization_id	FK
+setting_name	VARCHAR
+setting_value	TEXT
+
+Project Folder Schema::::
+COIIP/
+
+│
+├── app.py
+│
+├── config/
+│   ├── settings.py
+│
+├── database/
+│   ├── models.py
+│   ├── db.sqlite3
+│
+├── routes/
+│   ├── auth.py
+│   ├── incidents.py
+│   ├── assets.py
+│   ├── service_requests.py
+│   ├── changes.py
+│   ├── reports.py
+│   ├── ai.py
+│
+├── services/
+│   ├── sla_service.py
+│   ├── escalation_service.py
+│   ├── notification_service.py
+│   ├── audit_service.py
+│
+├── ai/
+│   ├── classifier.py
+│   ├── similarity.py
+│   ├── trends.py
+│
+├── templates/
+│   ├── public/
+│   ├── user/
+│   ├── operations/
+│   ├── admin/
+│
+├── static/
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│
+├── uploads/
+│
+├── logs/
+│
+├── docker/
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│
+├── nginx/
+│   ├── nginx.conf
+│
+└── tests/
+
+
+2. SYSTEM ARCHITECTURE
+Users
+   │
+   ▼
+Browser
+   │
+   ▼
+Nginx Reverse Proxy
+   │
+   ▼
+Flask Application
+   │
+ ┌─┼─────────────┐
+ │ │             │
+ ▼ ▼             ▼
+
+AI Layer      Business Logic
+                │
+                ▼
+             SQLite
+
+                │
+                ▼
+         File Storage
+
+                │
+                ▼
+          AWS CloudWatch
+
+                │
+                ▼
+          Infrastructure
+
+-->Components
+
+**Frontend
+HTML
+CSS
+JavaScript
+
+**Backend
+Flask
+Responsible for:
+
+**Authentication
+APIs
+
+**Business Logic
+RBAC
+
+Database
+**SQLite
+Stores:
+
+Users
+Incidents
+Assets
+Changes
+Logs
+
+**AI Layer
+Handles:
+
+Classification
+Similarity
+Recommendations
+Trends
+Monitoring Layer
+
+**AWS CloudWatch
+Collects:
+
+CPU
+RAM
+Disk
+Network
+
+
+--->AWS Services Used
+
+*EC2
+Runs application.
+
+*CloudWatch
+Monitoring.
+
+*IAM
+Permissions.
+
+*Route 53
+Domain management.
+
+*Security Groups
+Firewall.
+
+*EBS
+Storage.
+
+*ACM / Let's Encrypt
+SSL certificate.
+
+http://127.0.0.1:5000 --- WEBSITE ADDRESS

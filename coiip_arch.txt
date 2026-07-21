@@ -1,0 +1,329 @@
+COIIP segmentation
+Segment 0 — Setup
+Purpose
+
+Prepare development environment.
+
+Deliverables
+Python
+VS Code
+Git
+COIIP project folder
+app.py
+Working terminal
+Status
+
+✅ Complete
+
+Segment 1 — First Working Website
+Purpose
+
+Convert COIIP into a working Flask website.
+
+Deliverables
+Flask installed
+First route
+First webpage
+Local server running
+Status
+
+✅ Complete
+
+Segment 2 — Identity & Access Foundation
+Purpose
+
+Create the entry point into COIIP.
+
+Deliverables
+Public
+Landing Page
+Organization Onboarding
+Organization Registration Form
+Organization Approval Workflow
+Organization ID Generation
+Organization Owner
+Owner Account Creation
+Authentication
+Login
+Logout
+Initial Dashboards
+Platform Dashboard Entry
+Organization Dashboard Entry
+User Dashboard Entry
+
+Segment 3 — Multi-Tenant Organization System
+Purpose
+
+Separate organizations completely.
+
+Deliverables
+Organization Isolation
+Organization Profiles
+Join Codes
+Invitation Links
+QR Join System
+Key Rule
+Organization A
+cannot access
+Organization B
+Segment 4 — RBAC (Role Based Access Control)
+Purpose
+
+Control permissions.
+
+Roles
+User
+Operations Team
+Department Manager
+Organization Admin
+Organization Owner
+Auditor
+Compliance Officer
+Platform Super Admin
+Segment 5 — Incident Management
+Purpose
+
+Core COIIP functionality.
+
+Deliverables
+Report Incident
+My Incidents
+Incident Details
+Incident Tracking
+Incident Types
+Named
+Protected
+Anonymous
+Segment 6 — Comments & Attachments
+Deliverables
+Incident Comments
+Attachments
+Images
+Documents
+Segment 7 — SLA Engine
+Deliverables
+Critical
+
+4 Hours
+
+High
+
+24 Hours
+
+Medium
+
+48 Hours
+
+Low
+
+72 Hours
+
+Automatic tracking.
+
+Segment 8 — Escalation Engine
+Deliverables
+Automatic Escalation
+Priority Increase
+Manager Notification
+Admin Notification
+Segment 9 — Notification Center
+Deliverables
+In-App Notifications
+SLA Alerts
+Assignment Alerts
+Escalation Alerts
+Segment 10 — Service Request Management
+Examples
+New Account
+Software Installation
+VPN Access
+Access Requests
+Segment 11 — Asset Management
+Deliverables
+Asset Inventory
+Servers
+Laptops
+Routers
+Printers
+Tracking
+Segment 12 — Change Management
+Deliverables
+Planned Changes
+Approvals
+Change Calendar
+Change History
+Segment 13 — Major Incident Management
+Deliverables
+Outage Management
+War Room Tracking
+Incident Coordination
+Segment 14 — Root Cause Analysis (RCA)
+Deliverables
+RCA Reports
+Corrective Actions
+Preventive Actions
+Segment 15 — Knowledge Base
+Deliverables
+Knowledge Articles
+Search
+Categories
+Solution Library
+Segment 16 — Analytics & Reporting
+Built-In Analytics
+User Dashboard
+Request Status
+Incident Progress
+Organization Dashboard
+Incident Trends
+SLA Compliance
+Department Performance
+Asset Health
+Platform Dashboard
+Organization Growth
+Platform Usage
+Feedback Trends
+Power BI Integration
+
+Locked Feature
+
+Platform Analytics
+Adoption
+Growth
+Usage
+Organization Analytics
+Resolution Trends
+SLA Performance
+Category Analysis
+Segment 17 — AI Foundation
+Deliverables
+Classification Agent
+
+Suggest:
+
+Category
+Priority
+Assignment Agent
+
+Suggest:
+
+Responsible Team
+Segment 18 — Advanced AI
+Deliverables
+Trend Detection
+
+Example:
+
+15 Water Leak Reports
+Same Building
+Similar Incident Detection
+Knowledge Recommendations
+Operations Assistant
+
+Natural Language Queries
+
+Segment 19 — Infrastructure Monitoring
+Deliverables
+CloudWatch Integration
+Alert Tracking
+Infrastructure Health Dashboard
+Segment 20 — Disaster Recovery
+Deliverables
+Backup Tracking
+Recovery Procedures
+Recovery Reporting
+Segment 21 — Public Status Page
+Deliverables
+
+Public visibility for services.
+
+Examples:
+
+Website
+Email
+Wi-Fi
+Segment 22 — Dockerization
+Deliverables
+Dockerfile
+Docker Compose
+Containerized COIIP
+Segment 23 — AWS Deployment
+Deliverables
+EC2
+Ubuntu
+Nginx
+HTTPS
+CloudWatch
+Production Hosting
+Segment 24 — Finalization & Portfolio
+Deliverables
+Screenshots
+Documentation
+Architecture Diagrams
+Resume Content
+GitHub Repository
+Cross-Segment Locked Features
+
+These apply throughout the project.
+
+Three-Layer Architecture
+Layer 1
+
+Platform Owner
+
+You.
+
+Layer 2
+
+Organizations
+
+Schools, Hospitals, Startups, NGOs, etc.
+
+Layer 3
+
+Users
+
+Employees, Students, Residents, Staff.
+
+Privacy Model
+Named
+
+Identity visible.
+
+Protected
+
+Identity hidden from operational teams.
+
+Anonymous
+
+Identity hidden from everyone.
+
+Auditor Exception
+
+Identity visible only during approved investigations.
+
+Feedback Center
+
+Organizations can submit:
+
+Reviews
+Suggestions
+Feature Requests
+Ratings
+
+Visible to Platform Owner.
+
+Visual Analytics
+
+Every layer gets dashboards and visualizations.
+
+Power BI
+
+Officially included.
+
+Integrated in Segment 16.
+
+Multi-Tenant Isolation
+
+Mandatory.
+
+No organization can access another organization's data.

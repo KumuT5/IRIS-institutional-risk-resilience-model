@@ -1,0 +1,28 @@
+COIIP
+|-app.py
+|-routes
+    |-invitation.py
+    |-organization.py
+    |-platform.py
+    |-auth.py
+|-database
+    |-invitations.py
+    |-organizations.py
+    |-memberships.py
+    |-users.py
+|-templates
+    |-approval_queue.html
+    |-organization_dash.html
+    |-landing.html
+    |-user_dash.html
+    |-invitation.html
+    |-organization_users.html
+    |-login.html
+    |-platform_dash.html
+    |-base.html
+    |-register_org.html
+    |-registration_success.html
+    |-select_organization.html
+|-config.py
+
+

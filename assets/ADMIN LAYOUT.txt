@@ -1,0 +1,115 @@
+🔐 PART 1 — Should Admin See Same Home Page?
+
+Short answer: NO (but partially yes).
+
+You want two layers:
+
+1. Public Home Page (Same for everyone)
+Marketing page (what your system does)
+“Used by X companies”
+“Real-time risk intelligence”
+Login buttons:
+Company Login
+Admin Login
+
+👉 This builds trust + business vibe.
+
+2. Admin Entry Point (Hidden but accessible)
+Small Admin Login button (footer or subtle corner)
+Or direct route: /admin/login
+
+⚠️ Do NOT expose admin panel links openly like a menu item.
+
+🔐 PART 2 — Admin Authentication (NON-NEGOTIABLE)
+
+If you mess this up, your whole system looks fake.
+
+Minimum Requirements:
+✅ Strong Login System
+Email + Password
+Password hashing (bcrypt)
+Minimum rules:
+8+ characters
+Uppercase + lowercase + number + symbol
+✅ MFA (Must have)
+
+Use:
+
+OTP via email OR
+Authenticator apps like Google Authenticator
+✅ Session Security
+JWT or secure session tokens
+Auto logout after inactivity
+Device/session tracking (optional but impressive)
+✅ Role-Based Access Control (RBAC)
+Only role = ADMIN can access /admin/*
+Block everything else
+✅ Brute Force Protection
+Limit login attempts (e.g., 5 tries → lock)
+CAPTCHA (optional but strong)
+📊 PART 3 — Admin Dashboard (THE BUSINESS CORE)
+
+This is where your project becomes “sellable”.
+
+🔹 What Admin Sees (Table View)
+Company ID	Company Name	Usage Frequency	Experience Rating	Feedback
+📌 Data Meaning (Be clear internally)
+Company ID → Unique identifier (UUID)
+Usage Frequency → How often they use your system
+Experience Rating → Their satisfaction (1–5)
+Feedback → Suggestions / complaints
+🔥 UI Features (Make it look premium)
+Search + filter
+Sort by:
+Most active companies
+Lowest rating (problem detection)
+Export data (CSV)
+Graphs (usage trends)
+⚠️ HARD RULE (You already said this right)
+
+Admin MUST NOT SEE:
+
+Risk scores
+Assessment details
+Company internal data
+
+👉 This is privacy-first architecture
+👉 HUGE selling point
+
+⚙️ PART 4 — Admin Configuration Panel (REAL POWER)
+
+This is your system’s brain.
+
+🎯 What Admin Can Control:
+1. Risk Thresholds
+
+Example:
+
+Low Risk: 0–30
+Medium Risk: 31–70
+High Risk: 71–100
+
+Admin can change based on real-world situations.
+
+2. Dynamic Risk Factors
+
+Admin can tweak:
+
+Weight of parameters
+Example:
+Network Security = 30%
+Authentication Strength = 25%
+Data Encryption = 20%
+3. Scenario-Based Adjustment
+
+Example:
+
+If cyber attack spike → increase sensitivity
+If stable → normalize thresholds
+
+👉 This makes your system adaptive (very impressive)
+
+4. System-Wide Policies
+Enable/disable features
+Alert thresholds
+Lockdown triggers (connect this with your ACSL concept later)
