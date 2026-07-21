@@ -26,7 +26,7 @@ home_pages = [
 ]
 
 apply_global_ui(
-    r"assets\IRIS LOGO.jfif",
+    r"assets/IRIS LOGO.jfif",
 
     show_top_buttons=(page == "home"),
 
